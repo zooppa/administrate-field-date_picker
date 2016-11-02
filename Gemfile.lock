@@ -1,10 +1,10 @@
 PATH
   remote: .
   specs:
-    administrate-field-date_picker (0.0.1)
+    administrate-field-date_picker (0.0.2)
       administrate (~> 0.2.1)
       flatpickr_rails (~> 0.0.2)
-      rails (~> 4.2)
+      rails (>= 4.2)
 
 GEM
   remote: https://rubygems.org/
