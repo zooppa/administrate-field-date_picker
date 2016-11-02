@@ -1,0 +1,16 @@
+<%#
+# DatePicker Show Partial
+
+This partial renders a date to be displayed
+on a resource's show page.
+
+By default, the attribute is rendered as string
+with the %b %d, %Y format, e.g. `Oct 28, 2016`
+
+## Local variables:
+
+- `field`:
+  An instance of DateTime.
+%>
+
+<%= field.data.strftime('%b %d, %Y') %>

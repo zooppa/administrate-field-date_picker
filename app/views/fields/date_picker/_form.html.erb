@@ -1,0 +1,20 @@
+<%#
+# DatePicker Form Partial
+
+This partial renders an input element that will trigger a date picker when focused.
+It falls back to a HTML5 `date` input field
+
+## Local variables:
+
+- `f`:
+  A Rails form generator, used to help create the appropriate input fields.
+- `field`:
+  An instance of DateTime.
+%>
+
+<div class="field-unit__label">
+  <%= f.label field.attribute %>
+</div>
+<div class="field-unit__field">
+  <%= f.date_field field.attribute, class: 'date_picker' %>
+</div>
