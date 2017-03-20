@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.version = '0.0.3'
   gem.authors = ['Michele Gerarduzzi']
   gem.email = ['michele.gerarduzzi@gmail.com']
-  gem.homepage = 'https://github.com/z-productions/administrate-field-date_picker'
+  gem.homepage = 'https://github.com/zooppa/administrate-field-date_picker'
   gem.summary = 'A date picker plugin for Administrate'
   gem.description = gem.summary
   gem.license = 'MIT'
