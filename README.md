@@ -11,7 +11,7 @@ A plugin to pick a date in [Administrate], with the help of [Flatpickr].
 Add it to your `Gemfile`:
 
 ```ruby
-gem 'administrate-field-date_picker', '~> 0.0.3'
+gem 'administrate-field-date_picker', '~> 0.0.4'
 ```
 
 Run:
