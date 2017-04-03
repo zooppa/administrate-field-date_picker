@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    administrate-field-date_picker (0.0.4)
+    administrate-field-date_picker (0.0.5)
       administrate (< 1.0.0)
       flatpickr_rails (~> 0.0.2)
       rails (>= 4.2)
