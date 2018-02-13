@@ -30,9 +30,8 @@ ATTRIBUTE_TYPES = {
 
 ## About
 
-Administrate::Field::DatePicker is maintained by [z.productions].
+Administrate::Field::DatePicker is maintained by [Zooppa].
 
-
-[Flatpickr]: https://github.com/chmln/flatpickr
-[Administrate]: https://github.com/thoughtbot/administrate
-[z.productions]: https://www.z.productions/
+[flatpickr]: https://github.com/chmln/flatpickr
+[administrate]: https://github.com/thoughtbot/administrate
+[zooppa]: https://www.zooppa.com/
