@@ -1,6 +1,7 @@
 # Administrate::Field::DatePicker
 
 [![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-date_picker/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-date_picker)
+[![Build Status](https://semaphoreci.com/api/v1/zooppa/administrate-field-date_picker/branches/master/badge.svg)](https://semaphoreci.com/zooppa/administrate-field-date_picker)
 
 A plugin to pick a date in [Administrate], with the help of [Flatpickr].
 
