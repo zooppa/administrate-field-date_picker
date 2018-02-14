@@ -5,7 +5,7 @@ This partial renders a date to be displayed
 on a resource's index page.
 
 By default, the attribute is rendered as string
-with the %b %d, %Y format, e.g. `Oct 28, 2016`
+with the :default format
 
 ## Local variables:
 
@@ -13,4 +13,4 @@ with the %b %d, %Y format, e.g. `Oct 28, 2016`
   An instance of DateTime.
 %>
 
-<%= field.data.strftime('%b %d, %Y') if field.data %>
+<%= l field.data if field.data %>
