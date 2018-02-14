@@ -11,4 +11,35 @@ describe Administrate::Field::DatePicker do
       expect(path).to eq('/fields/date_picker/show')
     end
   end
+
+  describe '#ldate' do
+    let(:output) { subject.ldate(options) }
+    let(:options) { {} }
+
+    context 'with nil' do
+      let(:data) { nil }
+
+      it 'returns nil' do
+        expect(output).to be_nil
+      end
+    end
+
+    context 'with a date' do
+      let(:data) { Date.parse('2018-02-14') }
+
+      context 'with no options' do
+        it 'returns the date with defaulf format' do
+          expect(output).to eq '2018-02-14'
+        end
+      end
+
+      context 'with format' do
+        let(:options) { { format: '%b %d, %Y' } }
+
+        it 'returns the formatted date' do
+          expect(output).to eq 'Feb 14, 2018'
+        end
+      end
+    end
+  end
 end
