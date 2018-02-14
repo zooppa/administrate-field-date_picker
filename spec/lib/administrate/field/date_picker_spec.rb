@@ -1,14 +1,14 @@
-require 'administrate/field/date_picker'
+require 'spec_helper'
 
 describe Administrate::Field::DatePicker do
+  subject { Administrate::Field::DatePicker.new(:date_picker, data, :show) }
+
   describe '#to_partial_path' do
+    let(:data) { Date.today }
+
     it 'returns a partial based on the page being rendered' do
-      page = :show
-      field = Administrate::Field::DatePicker.new(:date_picker, '11/02/2016', page)
-
-      path = field.to_partial_path
-
-      expect(path).to eq("/fields/date_picker/#{page}")
+      path = subject.to_partial_path
+      expect(path).to eq('/fields/date_picker/show')
     end
   end
 end

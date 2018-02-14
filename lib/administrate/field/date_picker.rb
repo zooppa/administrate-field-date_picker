@@ -1,6 +1,6 @@
+require 'rails'
 require 'administrate/field/text'
 require 'administrate/engine'
-require 'rails'
 require 'flatpickr_rails'
 
 module Administrate
