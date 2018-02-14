@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.1.0](https://github.com/zooppa/administrate-field-date_picker/tree/v0.1.0) (2018-02-14)
+
+[Full Changelog](https://github.com/zooppa/administrate-field-date_picker/compare/v0.0.5...v0.1.0)
+
+* Handle nil values (thanks @NickWarm)
+* Use i18n `:default` date format (thanks @neumayr)
+
 ## [v0.0.5](https://github.com/zooppa/administrate-field-date_picker/tree/v0.0.5) (2017-04-03)
 
 [Full Changelog](https://github.com/zooppa/administrate-field-date_picker/compare/v0.0.4...v0.0.5)
