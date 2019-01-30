@@ -3,8 +3,8 @@ $:.push File.expand_path('../lib', __FILE__)
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-date_picker'
   gem.version = '0.1.0'
-  gem.authors = ['Michele Gerarduzzi']
-  gem.email = ['michele.gerarduzzi@gmail.com']
+  gem.authors = ['Zooppa']
+  gem.email = ['dev@zooppa.com']
   gem.homepage = 'https://github.com/zooppa/administrate-field-date_picker'
   gem.summary = 'Date picker plugin for Administrate'
   gem.description = 'A plugin to select dates with a date picker in Administrate'
