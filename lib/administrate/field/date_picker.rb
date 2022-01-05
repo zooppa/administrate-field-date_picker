@@ -12,7 +12,7 @@ module Administrate
       end
 
       def ldate(options = {})
-        data ? I18n.l(data, options) : nil
+        data ? I18n.l(data, **options) : nil
       end
     end
   end
