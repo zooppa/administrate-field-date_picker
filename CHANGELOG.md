@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.3.0](https://github.com/zooppa/administrate-field-date_picker/tree/v0.3.0) (2021-01-06)
+
+[Full Changelog](https://github.com/zooppa/administrate-field-date_picker/compare/v0.2.0...v0.3.0)
+
+* Add support for Rails 7 (thanks @neumayr)
+
 ## [v0.2.0](https://github.com/zooppa/administrate-field-date_picker/tree/v0.2.0) (2019-09-02)
 
 [Full Changelog](https://github.com/zooppa/administrate-field-date_picker/compare/v0.1.0...v0.2.0)
