@@ -28,15 +28,23 @@ describe Administrate::Field::DatePicker do
       let(:data) { Date.parse('2018-02-14') }
 
       context 'with no options' do
-        it 'returns the date with defaulf format' do
+        it 'returns the date with default format' do
           expect(output).to eq '2018-02-14'
         end
       end
 
-      context 'with format' do
+      context 'with long format' do
+        let(:options) { { format: :long } }
+
+        it 'returns the date with long formatted date' do
+          expect(output).to eq 'February 14, 2018'
+        end
+      end
+
+      context 'with custom format' do
         let(:options) { { format: '%b %d, %Y' } }
 
-        it 'returns the formatted date' do
+        it 'returns the date with custom formatted date' do
           expect(output).to eq 'Feb 14, 2018'
         end
       end
