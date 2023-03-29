@@ -1,10 +1,6 @@
 # Administrate::Field::DatePicker
 
-[![Build status](https://github.com/zooppa/administrate-field-date_picker/actions/workflows/build.yml/badge.svg)](https://github.com/zooppa/administrate-field-date_picker/actions/workflows/build.yml) [![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-date_picker/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-date_picker)
-
-A plugin to pick a date in [Administrate], with the help of [Flatpickr].
-
-![Screenshot](https://raw.githubusercontent.com/zooppa/administrate-field-date_picker/master/screenshot.png)
+[![No Maintenance Intended](https://unmaintained.tech/badge.svg)](https://unmaintained.tech/) [![Build status](https://github.com/zooppa/administrate-field-date_picker/actions/workflows/build.yml/badge.svg)](https://github.com/zooppa/administrate-field-date_picker/actions/workflows/build.yml) [![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-date_picker/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-date_picker)
 
 ---
 
@@ -15,6 +11,10 @@ A plugin to pick a date in [Administrate], with the help of [Flatpickr].
 If you’re interested in taking over and steward the project moving forward, please get in touch.
 
 ---
+
+A plugin to pick a date in [Administrate], with the help of [Flatpickr].
+
+![Screenshot](https://raw.githubusercontent.com/zooppa/administrate-field-date_picker/master/screenshot.png)
 
 ## Usage
 
